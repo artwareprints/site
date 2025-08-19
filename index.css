@@ -90,7 +90,7 @@
   	height: 600px;
   	object-fit: cover;
 }
-.logo-1-icon {
+.logo {
   	position: absolute;
   	top: 41px;
   	left: 568px;
@@ -98,7 +98,7 @@
   	height: 280px;
   	object-fit: cover;
 }
-.facebook-1-icon {
+.facebook {
   	position: absolute;
   	top: 1026px;
   	left: 599px;
@@ -106,7 +106,7 @@
   	height: 58px;
   	object-fit: cover;
 }
-.instagram-1-icon {
+.instagram {
   	position: absolute;
   	top: 1026px;
   	left: 674px;
