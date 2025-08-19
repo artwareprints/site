@@ -1,0 +1,128 @@
+.artboard-2300x-1 {
+  	position: absolute;
+  	top: 41px;
+  	left: calc(50% - 146px);
+  	width: 292px;
+  	height: 290px;
+}
+.home {
+  	position: absolute;
+  	top: 171px;
+  	left: 247px;
+}
+.reviews {
+  	position: absolute;
+  	top: 171px;
+  	left: 924px;
+}
+.portfolio {
+  	position: absolute;
+  	top: 171px;
+  	left: 374px;
+}
+.artwareprints {
+  	position: absolute;
+  	top: 1038px;
+  	left: 749px;
+}
+.contact {
+  	position: absolute;
+  	top: 171px;
+  	left: 1072px;
+}
+.express-yourself-in-colors {
+  	margin: 0;
+}
+.blank-line {
+  	margin: 0;
+  	font-size: 24px;
+}
+.express-yourself-in-container {
+  	position: absolute;
+  	top: 379px;
+  	left: 126px;
+  	display: inline-block;
+  	width: 641px;
+  	height: 368px;
+  	font-size: 48px;
+}
+.landing-child {
+  	position: absolute;
+  	top: 699px;
+  	left: 136px;
+  	border-radius: 70px;
+  	background-color: #f8da48;
+  	width: 369px;
+  	height: 111px;
+}
+.shop {
+  	position: absolute;
+  	top: 726px;
+  	left: 258px;
+  	font-size: 48px;
+}
+.image-1 {
+  	position: absolute;
+  	top: 278px;
+  	left: 825px;
+  	width: 488px;
+  	height: 600px;
+}
+.facebook {
+  	position: absolute;
+  	top: 1023px;
+  	left: 584px;
+  	width: 58px;
+  	height: 58px;
+}
+.instagram {
+  	position: absolute;
+  	top: 1023px;
+  	left: 662px;
+  	width: 58px;
+  	height: 58px;
+}
+.artwork-1-icon {
+  	position: absolute;
+  	top: 299px;
+  	left: 825px;
+  	width: 488px;
+  	height: 600px;
+  	object-fit: cover;
+}
+.logo-1-icon {
+  	position: absolute;
+  	top: 41px;
+  	left: 568px;
+  	width: 292px;
+  	height: 280px;
+  	object-fit: cover;
+}
+.facebook-1-icon {
+  	position: absolute;
+  	top: 1026px;
+  	left: 599px;
+  	width: 58px;
+  	height: 58px;
+  	object-fit: cover;
+}
+.instagram-1-icon {
+  	position: absolute;
+  	top: 1026px;
+  	left: 674px;
+  	width: 58px;
+  	height: 58px;
+  	object-fit: cover;
+}
+.landing {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 1166px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 24px;
+  	color: #0e375c;
+  	font-family: 'Mozilla Headline';
+}
+
