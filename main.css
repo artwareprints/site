@@ -1,4 +1,4 @@
-/* Global Styles */
+/* Global */
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -14,16 +14,20 @@ header {
   padding: 20px 40px;
 }
 
-.logo {
-  width: 150px;
-}
-
-nav {
+.nav-left, .nav-right {
   display: flex;
-  gap: 30px;
+  gap: 25px;
 }
 
-nav a {
+.nav-logo {
+  flex: 0 0 auto;
+}
+
+.logo {
+  width: 120px;
+}
+
+header a {
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
@@ -31,27 +35,33 @@ nav a {
   transition: color 0.3s;
 }
 
-nav a:hover {
+header a:hover {
   color: #F8DA48;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 60px 40px;
+  gap: 50px;
   flex-wrap: wrap;
-  padding: 40px;
-  gap: 30px;
+}
+
+.hero-image img {
+  width: 450px;
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 .hero-text {
-  flex: 1;
-  min-width: 280px;
+  max-width: 500px;
+  text-align: left;
 }
 
 .hero-text h1 {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -66,23 +76,16 @@ nav a:hover {
   background: #F8DA48;
   padding: 15px 40px;
   border-radius: 50px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
   color: #0E375C;
   text-decoration: none;
   display: inline-block;
+  transition: background 0.3s;
 }
 
-.hero-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.hero-image img {
-  width: 400px;
-  max-width: 100%;
-  border-radius: 10px;
+.btn-shop:hover {
+  background: #f5cc1a;
 }
 
 /* Footer */
@@ -110,16 +113,11 @@ footer {
   font-weight: bold;
 }
 
-/* Responsive Design */
+/* Responsive */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
     gap: 15px;
-  }
-
-  nav {
-    flex-wrap: wrap;
-    justify-content: center;
   }
 
   .hero {
@@ -127,17 +125,17 @@ footer {
     text-align: center;
   }
 
-  .hero-text h1 {
-    font-size: 36px;
+  .hero-text {
+    text-align: center;
   }
 
-  .hero-text p {
-    font-size: 16px;
+  .hero-text h1 {
+    font-size: 32px;
   }
 
   .btn-shop {
     font-size: 20px;
-    padding: 12px 30px;
+    padding: 12px 28px;
   }
 
   .hero-image img {
@@ -147,24 +145,24 @@ footer {
 
 @media (max-width: 480px) {
   .logo {
-    width: 120px;
+    width: 90px;
   }
 
-  nav a {
+  header a {
     font-size: 16px;
   }
 
   .hero-text h1 {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .btn-shop {
     font-size: 18px;
-    padding: 10px 25px;
+    padding: 10px 24px;
   }
 
   .hero-image img {
-    width: 250px;
+    width: 240px;
   }
 
   .socials img {
